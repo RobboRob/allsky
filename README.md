@@ -59,18 +59,7 @@ Exit the raspi-config application and choose to reboot when the option is presen
 
 After booting using the GUI option open terminal window (not needed for command line interface):
 
-Update and upgrade the Raspberry Pi:
-```shell
-sudo rpi-update
-```
-(answer with y each time y/n is presented)
-
-reboot with:
-```shell
-sudo shutdown -r 0
-```
-
-When needed open terminal window after the reboot. Continue to ensure the Raspberry Pi is fully up to date with:
+Continue to ensure the Raspberry Pi is fully up to date with:
 ```shell
 sudo apt update -y
 sudo apt full-upgrade -y
